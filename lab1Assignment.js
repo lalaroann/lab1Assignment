@@ -1,3 +1,41 @@
+/*
+Project: Lab 1 - Javascript with Simple Algorithms 
+Name: Roann Cordova
+Course: SCTM-S3001-301 (Fall 2022) Comp Sci 2-Data & Algorithms
+Instructor: Dr. Adam Tindale
+
+Sources:
+
+Spread syntax (...)
+•   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax
+
+String.prototype.replace()
+•   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace
+
+isNaN()
+•   https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN
+
+
+Array.prototype.splice()
+•  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
+Finding the Min (same thing with Max) value in an array
+•  https://bobbyhadz.com/blog/javascript-get-index-of-min-value-in-array
+
+Finding the longest word in the array and its count / finding the word and printing it
+•  https://www.freecodecamp.org/news/three-ways-to-find-the-longest-word-in-a-string-in-javascript-a2fb04c9757c/
+
+
+
+Purpose:
+•   The whole purpose of the code is to find the longest word / highest value / lowest value in the array no matter what file is imported.
+    The code will not read long lines of numbers as a the longest word, and instead it will only print out the legible word.
+    The code will also still print out the highest and lowest number in the file even though there are words included in the file.
+*/
+
+
+
+
 const fs = require('fs');
 const { isNumberObject } = require('util/types');
 
