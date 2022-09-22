@@ -39,8 +39,8 @@ Purpose:
 const fs = require('fs');
 const { isNumberObject } = require('util/types');
 
-//----------testnumbers1.csv------------------
-let data = fs.readFileSync('testtext1.txt');
+
+let data = fs.readFileSync('test.csv');
 
 data = String(data);
 
@@ -155,6 +155,5 @@ maxFunction();
 
 
 
-//----------testnumbers1.csv closed-----------
 
 
